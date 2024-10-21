@@ -1,0 +1,153 @@
+
+.contact-section {
+  text-align: center;
+  padding:  20px;
+  color: #fff;
+  
+}
+
+#contact{
+  scroll-margin-top: 70px;
+}
+.heading {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(177, 178, 179);
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(17, 25, 40, 0.83);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color:#F5F5F5;
+  opacity: 2.3;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.send-button {
+  padding: 15px;
+  font-size: 1rem;
+  background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+  box-shadow: rgb(31, 38, 52) 20px 20px 60px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: rgb(230, 0, 255);
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  form-container {
+    padding: 20px;
+  }
+
+  .send-button {
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .form-container {
+    width: 100%;
+   
+  }
+
+  .contact-section{
+    margin-bottom: 100px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .send-button {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    font-size: 1.3rem;
+  }
+
+  .social-icons {
+    gap: 15px;
+  }
+}

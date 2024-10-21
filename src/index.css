@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+/* body{
+  height: 100vh;
+  
+  color: white;
+  font-family: 'outfit';
+} */
+
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background: rgba(17, 25, 40, 0.83);
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 3px;
+  background: rgb(177, 178, 179);
+}
+
